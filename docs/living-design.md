@@ -9,14 +9,16 @@ This project is intended to create a command line runner for generating prime nu
 ---
 
 ### PrimeNumberGenerator:
+
 **`generate(int startingValue, int endingValue)` :** Will return a `List<Integer>` containing all prime values between
 the `startingValue` and `endingValue`
 
-**`isPrime(int value)` :** Will return a `boolean` indicating `true` if the value is prime otherwise `false`. 
+**`isPrime(int value)` :** Will return a `boolean` indicating `true` if the value is prime otherwise `false`.
 
-**Default Implementation:** TODO
+**Default
+Implementation:** [PrimeNumberGeneratorImpl](https://github.com/PottedBear/primes-generator/blob/main/src/main/java/org/primes/generator/PrimeNumberGeneratorImpl.java)
 
-## Runner 
+## Runner
 
 ---
 

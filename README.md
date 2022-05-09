@@ -14,3 +14,4 @@ Welcome! This project is a command line runner for generating prime numbers.
 ## References
 
 * [Living Design](https://github.com/PottedBear/primes-generator/blob/main/docs/living-design.md)
+* [Prime Values in Java](https://www.baeldung.com/java-generate-prime-numbers)
