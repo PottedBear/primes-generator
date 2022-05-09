@@ -39,6 +39,11 @@ public class PrimeNumberGeneratorRunnerTest {
     }
 
     @Test
+    public void initialization() {
+        assertThat(new PrimeNumberGeneratorRunner()).isNotNull();
+    }
+
+    @Test
     public void test1To10() {
         input = "1 10";
 
