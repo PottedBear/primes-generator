@@ -37,6 +37,20 @@ public class PrimeNumberGeneratorImplTest {
     }
 
     @Test
+    public void testGenerate7to7() {
+        List<Integer> listToCheck = primeNumberGenerator.generate(7, 7);
+
+        assertThat(listToCheck).containsExactly(7);
+    }
+
+    @Test
+    public void testGenerate8to8() {
+        List<Integer> listToCheck = primeNumberGenerator.generate(8, 8);
+
+        assertThat(listToCheck).isEmpty();
+    }
+
+    @Test
     public void testGenerateStartingValueZero() {
         assertThatThrownBy(() -> primeNumberGenerator.generate(0, 100))
                 .isInstanceOf(IllegalArgumentException.class)

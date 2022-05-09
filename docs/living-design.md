@@ -8,7 +8,7 @@ This project is intended to create a command line runner for generating prime nu
 
 ---
 
-### PrimeNumberGenerator:
+### [PrimeNumberGenerator](https://github.com/PottedBear/primes-generator/blob/main/src/main/java/org/primes/generator/PrimeNumberGenerator.java):
 
 **`generate(int startingValue, int endingValue)` :** Will return a `List<Integer>` containing all prime values between
 the `startingValue` and `endingValue`
@@ -22,5 +22,9 @@ Implementation:** [PrimeNumberGeneratorImpl](https://github.com/PottedBear/prime
 
 ---
 
-**TODO**
+### [PrimeNumberGeneratorRunner](https://github.com/PottedBear/primes-generator/blob/main/src/main/java/org/primes/generator/PrimeNumberGeneratorRunner.java):
+
+Class contains the `main` for running the `PrimeNumberGenerator` from the command line using the default implementation.
+
+
 
